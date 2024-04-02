@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
-:root{
-    --cor-de-fundo:#e4ddd2;
-    --verde: #7bbc7d;
-    --branco: #CCCCCC;
-    --bota-ativo: #e8c672;
-    --botao-inativo: #b1ac96;
-    --texto-fundo: #f2eeee;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+--cor-de-fundo: #154bd2;
+--verde: #19dd19;
+--branco: #ede0e0;
+--botao-ativo: #18cabe;
+--botao-inativo: #940fc8;
+--texto-fundo: #f0e10f;
 }
 
-
-body  {
+body{ 
     background-color: var(--cor-de-fundo);
-    color: var(--branco); 
-    font-family: 'Caveat', sans-serif;
+    color: var(--branco);
+    font-family: 'Roboto', sans-serif;
 }
 
-.conteudo-principal {
+.conteudo-principal{
     display: flex;
     flex-direction: column;
     justify-content: center;
